@@ -7,7 +7,8 @@ arch=('any')
 url="https://github.com/xmikos/cryptboot"
 license=('GPL3')
 depends=('cryptsetup' 'grub' 'efibootmgr' 'efitools' 'sbsigntools')
-source=(https://github.com/xmikos/cryptboot/archive/v$pkgver.tar.gz)
+source=(https://github.com/gavinkflam/cryptboot/archive/v$pkgver.tar.gz)
+sha256sums=('f3227cbe2847d389b6c340a73e26f6859c18f6eef662a7822b5582cfee6d5538')
 
 package() {
   cd "$srcdir/$pkgname-$pkgver"
